@@ -1,4 +1,5 @@
 # promoter-counter
+**Requires SeqIO from Biopython**
 
 Run from command line as
 ```
