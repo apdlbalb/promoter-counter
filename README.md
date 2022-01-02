@@ -9,7 +9,7 @@ This program reads in a text file of gene IDs, a text file of promoter sequences
 promoterCounter.py genesOfInterest.txt promoterSeqs.txt FastaGFF/
 ```
 
-Where `genesOfInterest.txt` looks like:
+where `genesOfInterest.txt` looks like:
 ```
 Zm00001d002384
 Zm00001d038084
