@@ -2,7 +2,7 @@
 This program reads in a text file of gene IDs, a text file of promoter motif sequences, and a folder of GFF and fasta files and creates a report of the number of times each motif was found. 
 
 ## Dependencies
-- Requires `SeqIO` from `Biopython`
+- Requires SeqIO from Biopython
 
 ## Usage
 ```
