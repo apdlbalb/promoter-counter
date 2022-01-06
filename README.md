@@ -3,7 +3,7 @@ This program reads in a text file of gene IDs, a text file of promoter motif seq
 
 ## Dependencies
 - Requires SeqIO from Biopython
-- Program assumes all GFF files in `FastaGFF/` have a matching fasta file in the directory
+- Program assumes all GFF files in `FastaGFF/` have a matching fasta file (with chromosome number as the key) in the directory
 
 ## Usage
 Please run in command line as follows:
