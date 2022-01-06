@@ -6,6 +6,7 @@ This program reads in a text file of gene IDs, a text file of promoter motif seq
 - Program assumes all GFF files in `FastaGFF/` have a matching fasta file in the directory
 
 ## Usage
+Please run in command line as follows:
 ```
 promoterCounter.py genesOfInterest.txt promoterSeqs.txt FastaGFF/
 ```
