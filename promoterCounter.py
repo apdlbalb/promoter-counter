@@ -1,13 +1,3 @@
-# -----------------------------------------
-# Author: Ana Patricia Balbon
-# Email: abalbon@uoguelph.ca
-# Title: BINF*6410 Assignment 3
-# Description: This program reads in a text file of gene IDs, a text
-# file of promoter sequences and a folder of GFF and fasta files and creates a report
-# of the number of times each motif was found.
-# Copyright (c) 2021. All rights reserved.
-# ------------------------------------------
-
 # IMPORT MODULE ---------------------------------------------------------
 import sys
 import os
