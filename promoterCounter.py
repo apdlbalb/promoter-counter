@@ -1,11 +1,10 @@
+PROMOTER_REGION_LEN = 500
+
 # IMPORT MODULE ---------------------------------------------------------
 import sys
 import os
 from Bio import SeqIO
 import re
-
-# DEFINE CONSTANT -------------------------------------------------------
-PROMOTER_REGION_LEN = 500
 
 # DEFINE CLASS ----------------------------------------------------------
 class Feature:
