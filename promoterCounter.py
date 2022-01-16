@@ -153,9 +153,9 @@ for GFFFilename in GFFFilenames:
 # COMBINE ALL UPSTREAM SEQUENCES ------------------------------------------
 upSeqs = []
 
-for key in GFFs:
-    seq = seqRecords[key].seq
-    GFFLines = GFFs[key]
+for chrNum in GFFs:
+    seq = seqRecords[chrNum].seq
+    GFFLines = GFFs[chrNum]
     allFeatures = GFFToObjects(GFFLines)
     allGenes = getGeneObjects(allFeatures)
     genesInChr = chrGenesOfInterest(allGenes, genes)
