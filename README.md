@@ -8,7 +8,7 @@ This program reads in a text file of gene IDs, a text file of promoter motif seq
 ## Usage
 Please run in command line as follows:
 ```
-promoterCounter.py genesOfInterest.txt promoterSeqs.txt FastaGFF/
+python3 promoterCounter.py genesOfInterest.txt promoterSeqs.txt FastaGFF/
 ```
 
 where `genesOfInterest.txt` looks like:
