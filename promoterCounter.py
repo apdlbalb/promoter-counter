@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 PROMOTER_REGION_LEN = 500
 
 # IMPORT MODULE ---------------------------------------------------------
