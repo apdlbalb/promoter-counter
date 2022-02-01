@@ -2,13 +2,14 @@
 This program reads in a text file of gene IDs, a text file of promoter motif sequences, and a directory of GFF and fasta files and creates a report of the number of times each motif was found. 
 
 ## Dependencies
+- Developed using Python3
 - Requires SeqIO from Biopython
 - Program assumes all GFF files in `FastaGFF/` have a matching fasta file in the directory with chromosome number as the key
 
 ## Usage
-Please run in command line as follows:
+Assuming all are in the same directory, please run in command line as follows:
 ```
-python3 promoterCounter.py genesOfInterest.txt promoterSeqs.txt FastaGFF/
+./promoterCounter.py genesOfInterest.txt promoterSeqs.txt FastaGFF/
 ```
 
 where `genesOfInterest.txt` looks like:
