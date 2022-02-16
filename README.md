@@ -1,10 +1,10 @@
 # promoter-counter
-This program reads in a text file of gene IDs, a text file of promoter motif sequences, and a directory of GFF and fasta files and creates a report of the number of times each motif was found. 
+This program reads in a text file of gene IDs, a text file of promoter motif sequences, and a directory of GFF3 and fasta files and creates a report of the number of times each motif was found. 
 
 ## Dependencies
 - Written in Python 3
 - Requires SeqIO from Biopython
-- Program assumes all GFF files in `FastaGFF/` have a matching fasta file in the directory with chromosome number as the key
+- Program assumes all GFF3 files in `FastaGFF/` have a matching fasta file in the directory with chromosome number as the key
 
 ## Usage
 Assuming all are in the same directory, please run in command line as follows:
@@ -34,7 +34,7 @@ acatgTGTAAAGgtatt
 acatgTGTAAAGgtgaa
 ```
 
-and where the `FastaGFF/` directory contains the Ensembl GFF and Fasta files of a species.
+and where the `FastaGFF/` directory contains the Ensembl GFF3 and Fasta files of a species.
 
 
 
